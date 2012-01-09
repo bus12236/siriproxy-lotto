@@ -40,7 +40,7 @@ class SiriProxy::Plugin::Lotto < SiriProxy::Plugin
 	end  
 	
 	def initialize(config = {})
-		@tatts_hostname = "http://tatts.com"
+		@tatts_hostname = "http://tattss.com"
 	end
 	
 	def get_numbers(type)
