@@ -93,7 +93,7 @@ class SiriProxy::Plugin::Lotto < SiriProxy::Plugin
 	end
 
 	# Example: "Siri, what are the Tattslotto numbers?"
-	listen_for /(tattslotto|powerball|super66) numbers/i do |type|
+	listen_for /(tattslotto|powerball|super661) numbers/i do |type|
 
 		say "One moment:"
 
