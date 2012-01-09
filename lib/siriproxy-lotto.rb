@@ -22,10 +22,20 @@ class SiriProxy::Plugin::Lotto < SiriProxy::Plugin
   end 
 
   listen_for /Hi/i do
-    say "สวัสดีค่ะ !"
+    say "sawasdee ka ,Bus !"
     request_completed
   end
 
+  listen_for /Hello/i do
+    say "SบS !"
+    request_completed
+  end
+  
+   listen_for /Hey/i do
+    say "sawasdee ka ,Bus !"
+    request_completed
+  end
+  
   listen_for /siri proxy test question/i do
     response = ask "Is this thing working?" #ask the user for something
     
